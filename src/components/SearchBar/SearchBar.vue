@@ -1,5 +1,5 @@
 <template>
-  <div class="input-group mt-4 mb-4 w-25 m-auto">
+  <div class="input-group mt-4 mb-4 w-50 m-auto">
     <span class="input-group-text">
       <i class="bi bi-search" />
     </span>

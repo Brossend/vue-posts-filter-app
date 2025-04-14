@@ -1,5 +1,104 @@
-# Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Vue Posts Filter App
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Описание
+
+Это тестовое одностраничное приложение (SPA), которое получает данные с внешнего REST API [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com) и отображает список публикаций. Также предусмотрена фильтрация по автору публикации.
+
+Приложение использует **Vue 3**, **TypeScript** и **Vite** для сборки. Реализована адаптивная верстка для корректного отображения на различных устройствах.
+
+## Стек технологий
+
+- **Vue 3** - фронтенд фреймворк для построения UI.
+- **TypeScript** - типизация для лучшей поддержки разработки.
+- **Vite** - сборщик, используемый для быстрого построения проекта.
+- **Axios** - для выполнения HTTP-запросов.
+- **Bootstrap 5** - CSS-фреймворк для стилизации.
+- **Pinia** - состояние менеджер.
+- **Vue Router** - для маршрутизации.
+- **SASS** - препроцессор для стилизации.
+
+## Установка и запуск
+
+### 1. Клонировать репозиторий
+
+```bash
+git clone https://github.com/yourusername/vue-posts-filter-app.git
+```
+
+### 2. Перейти в каталог проекта
+
+```bash
+cd vue-posts-filter-app
+```
+
+### 3. Установить зависимости
+
+С помощью **Yarn**:
+
+```bash
+yarn install
+```
+
+Или с помощью **npm**:
+
+```bash
+npm install
+```
+
+### 4. Запустить проект в режиме разработки
+
+С помощью **Yarn**:
+
+```bash
+yarn dev
+```
+
+Или с помощью **npm**:
+
+```bash
+npm run dev
+```
+
+### 5. Сборка проекта для продакшн
+
+С помощью **Yarn**:
+
+```bash
+yarn build
+```
+
+Или с помощью **npm**:
+
+```bash
+npm run build
+```
+
+### 6. Предварительный просмотр собранного проекта
+
+С помощью **Yarn**:
+
+```bash
+yarn preview
+```
+
+Или с помощью **npm**:
+
+```bash
+npm run preview
+```
+
+## Структура проекта
+
+- `src/` — исходный код приложения.
+  - `components/` — компоненты Vue.
+  - `views/` — страницы.
+  - `store/` — Pinia для состояния приложения.
+  - `router/` — настройка маршрутов Vue Router.
+  - `assets/` — изображения и стили.
+- `public/` — статичные файлы.
+- `index.html` — основной HTML-шаблон.
+
+## Лицензия
+
+Этот проект предоставляется в рамках лицензии MIT. Для получения дополнительной информации см. файл [LICENSE](LICENSE).
